@@ -17,7 +17,7 @@ export default function Product({ product }) {
       <Container>
         <div className={styles.product}>
           <div className={styles.productImage}>
-            <img src={product.image} alt={`Preview of ${product.title}`} />
+            <img src={product.image1} alt={`Preview of ${product.title}`} />
           </div>
 
           <div className={styles.productDetails}>
@@ -31,7 +31,7 @@ export default function Product({ product }) {
               <button
                 className="snipcart-add-item"
                 data-item-id={product.id}
-                data-item-image={product.image}
+                data-item-image={product.image1}
                 data-item-name={product.title}
                 data-item-url={`/products/${product.id}`}
                 data-item-price={product.price}

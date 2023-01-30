@@ -1,16 +1,86 @@
 [
     {
-      "title": "Snipcart Logo Sticker",
-      "id": "sticker_logo",
-      "description": "Show off your Snipcart support with a logo sticker!",
-      "price": "2.00",
-      "image": "/images/sticker-single.jpg"
+      "title": "Check Tee",
+      "id": "checkTee",
+      "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
+      "colors":"black and white",
+      "size":"S M L XL",
+      "price": "25.00",
+      "discountPrice": "20.00",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094178/Out%20Of%20Place/blackcheck_ws0lkn.png",
+      "image2": "https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094445/Out%20Of%20Place/Screenshot_2023-01-30_at_9.00.39_AM_onj7fg.png"
     },
     {
-      "title": "Snipcart Logo Sticker Pack",
-      "id": "sticker_logo_pack",
-      "description": "Get a pack of 3 Snipcart logo stickers.",
-      "price": "4.00",
-      "image": "/images/sticker-3pack.jpg"
+      "title": "Get Out Tee",
+      "id": "getOutTee",
+      "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
+      "colors":"forest green and white",
+      "size":"S M L XL",
+      "price": "25.00",
+      "discountPrice": "20.00",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675092544/Out%20Of%20Place/getoutwhitefront_iiuybt.png",
+      "image2": "https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "image3": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094828/Out%20Of%20Place/Getoutgreenfront_p6mjpq.png",
+      "image4": "https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094445/Out%20Of%20Place/Screenshot_2023-01-30_at_9.00.39_AM_onj7fg.png"
+    },
+    {
+      "title": "Banking Hoodie",
+      "id": "bankingHoodie",
+      "description": "55/45 cotton/polyester blend, 8 oz, Self lined hood, rib knit cuffs, Heat Transfer",
+      "colors":"Navy and white",
+      "size":"S M L XL",
+      "price": "50.00",
+      "discountPrice": "40.00",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675096742/Out%20Of%20Place/blackhoodie_qwhdju.png",
+      "image2": "https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "image3": "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9vZGllfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "image4": "https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675096491/Out%20Of%20Place/Screenshot_2023-01-30_at_9.34.46_AM_d5lyq4.png"
+    },
+    {
+      "title": "Symbol Key Chain",
+      "id": "symbolKeyChain",
+      "description": "Black steel, 2.5 inch x 2.5 inch, 5 links - 1 keyring, OFP logo",
+      "colors":"",
+      "size":"",
+      "price": "7.50",
+      "discountPrice": "6.00",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675097286/Out%20Of%20Place/Screenshot_2023-01-30_at_9.47.59_AM_tawliz.png"
+     
+    },
+    {
+      "title": "OutOfPlace Hat",
+      "id": "oopHat",
+      "description": "Cotton/polyester blend, Five Panel - Soft Structured - 3 1/4 inch crown, Flat but bendable Bill, SnapBack, One size fits all ",
+      "colors":"",
+      "size":"",
+      "price": "30.00",
+      "discountPrice": "24.00",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675097988/Out%20Of%20Place/hatfront_cddzsf.png"
+     
+    },
+    {
+      "title": "Sticker Pack",
+      "id": "stickerPack",
+      "description": "3 unique vinyl stickers ",
+      "colors":"",
+      "size":"",
+      "price": "5.00",
+      "discountPrice": "discounted?",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675098320/Out%20Of%20Place/Screenshot_2023-01-30_at_10.05.14_AM_qr563c.png"
+    },
+    {
+      "title": "Keychain Sticker Pack",
+      "id": "keychainStickerPack",
+      "description": "1 keychain, 3 unique vinyl stickers ",
+      "colors":"",
+      "size":"",
+      "price": "12.50",
+      "discountPrice": "discounted?",
+      "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675098700/Out%20Of%20Place/keychainstickerbundle_plvuib.png"
+     
     }
+   
   ]

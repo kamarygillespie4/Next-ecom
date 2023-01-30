@@ -19,7 +19,7 @@ const Nav = ({ children }) => {
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
         <p className={styles.title}>
-          <Link href="/">Snipcart Store</Link>
+          <Link href="/">Out Of Place</Link>
         </p>
         <p className={styles.description}>
           <a

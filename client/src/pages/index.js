@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Snipcart Store</title>
+        <title>Out Of Place Streetwear</title>
       </Head>
       <Container className={styles.homeContainer}>
         <div className={styles.grid}>
@@ -21,7 +21,7 @@ export default function Home() {
               <div key={product.id} className={styles.card}>
                 <Link href={`/products/${product.id}`}>
                   <img
-                    src={product.image}
+                    src={product.image1}
                     alt={`Preview of ${product.title}`}
                   />
                   <h3>{product.title}</h3>
@@ -34,7 +34,7 @@ export default function Home() {
                   <button
                     className="snipcart-add-item"
                     data-item-id={product.id}
-                    data-item-image={product.image}
+                    data-item-image={product.image1}
                     data-item-name={product.title}
                     data-item-price={product.price}
                   >
