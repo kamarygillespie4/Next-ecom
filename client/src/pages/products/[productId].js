@@ -23,9 +23,10 @@ export default function Product({ product }) {
           <div className={styles.productDetails}>
             <h1>{product.title}</h1>
 
+            <p>${product.price}</p>
             <p>{product.description}</p>
 
-            <p>${product.price}</p>
+            <img src={product.sizeChart} />
 
             <p>
               <button

@@ -12,6 +12,12 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css"
           />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Belleza&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />

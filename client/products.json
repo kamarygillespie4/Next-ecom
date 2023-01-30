@@ -1,6 +1,6 @@
 [
     {
-      "title": "Check Tee",
+      "title": "CHECK TEE",
       "id": "checkTee",
       "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
       "colors":"black and white",
@@ -12,7 +12,7 @@
       "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094445/Out%20Of%20Place/Screenshot_2023-01-30_at_9.00.39_AM_onj7fg.png"
     },
     {
-      "title": "Get Out Tee",
+      "title": "GET OUT TEE",
       "id": "getOutTee",
       "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
       "colors":"forest green and white",
@@ -26,7 +26,7 @@
       "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094445/Out%20Of%20Place/Screenshot_2023-01-30_at_9.00.39_AM_onj7fg.png"
     },
     {
-      "title": "Banking Hoodie",
+      "title": "BANKING HOODIE",
       "id": "bankingHoodie",
       "description": "55/45 cotton/polyester blend, 8 oz, Self lined hood, rib knit cuffs, Heat Transfer",
       "colors":"Navy and white",
@@ -40,7 +40,7 @@
       "sizeChart":"https://res.cloudinary.com/dyck5r0tx/image/upload/v1675096491/Out%20Of%20Place/Screenshot_2023-01-30_at_9.34.46_AM_d5lyq4.png"
     },
     {
-      "title": "Symbol Key Chain",
+      "title": "SYMBOL KEY CHAIN",
       "id": "symbolKeyChain",
       "description": "Black steel, 2.5 inch x 2.5 inch, 5 links - 1 keyring, OFP logo",
       "colors":"",
@@ -51,7 +51,7 @@
      
     },
     {
-      "title": "OutOfPlace Hat",
+      "title": "OUTOFPLACE HAT",
       "id": "oopHat",
       "description": "Cotton/polyester blend, Five Panel - Soft Structured - 3 1/4 inch crown, Flat but bendable Bill, SnapBack, One size fits all ",
       "colors":"",
@@ -62,7 +62,7 @@
      
     },
     {
-      "title": "Sticker Pack",
+      "title": "STICKER PACK",
       "id": "stickerPack",
       "description": "3 unique vinyl stickers ",
       "colors":"",
@@ -72,7 +72,7 @@
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675098320/Out%20Of%20Place/Screenshot_2023-01-30_at_10.05.14_AM_qr563c.png"
     },
     {
-      "title": "Keychain Sticker Pack",
+      "title": "KEY CHAIN STICKER PACK",
       "id": "keychainStickerPack",
       "description": "1 keychain, 3 unique vinyl stickers ",
       "colors":"",

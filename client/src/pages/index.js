@@ -7,6 +7,11 @@ import Container from "@components/Container";
 import styles from "@styles/Home.module.css";
 
 import products from "../../products.json";
+const customStyles = {
+  image: {
+    // height: "15rem",
+  },
+};
 
 export default function Home() {
   return (
@@ -21,26 +26,11 @@ export default function Home() {
               <div key={product.id} className={styles.card}>
                 <Link href={`/products/${product.id}`}>
                   <img
+                    style={customStyles.image}
                     src={product.image1}
                     alt={`Preview of ${product.title}`}
                   />
-                  <h3>{product.title}</h3>
-                  <p className={styles.cardDescription}>
-                    {product.description}
-                  </p>
-                  <p>${product.price}</p>
                 </Link>
-                <p>
-                  <button
-                    className="snipcart-add-item"
-                    data-item-id={product.id}
-                    data-item-image={product.image1}
-                    data-item-name={product.title}
-                    data-item-price={product.price}
-                  >
-                    Add to Cart
-                  </button>
-                </p>
               </div>
             );
           })}
@@ -49,3 +39,22 @@ export default function Home() {
     </Layout>
   );
 }
+
+{
+  /* <h3>{product.title}</h3>
+<p className={styles.cardDescription}>
+  {product.description}
+</p>
+<p>${product.price}</p> */
+}
+// <p>
+//   <button
+//     className="snipcart-add-item"
+//     data-item-id={product.id}
+//     data-item-image={product.image1}
+//     data-item-name={product.title}
+//     data-item-price={product.price}
+//   >
+//     Add to Cart
+//   </button>
+// </p>

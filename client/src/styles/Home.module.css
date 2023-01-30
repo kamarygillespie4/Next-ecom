@@ -13,7 +13,7 @@
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis: 75%;
   max-width: 20rem;
   padding: 1.5rem;
   text-align: left;
@@ -35,7 +35,7 @@
   margin: 0.8em 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100%) {
   .grid {
     width: 100%;
     flex-direction: column;

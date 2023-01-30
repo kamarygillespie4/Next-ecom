@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { FaShoppingCart } from "react-icons/fa";
+import { AiFillShopping } from "react-icons/ai";
 
 import Container from "../Container";
 
 import styles from "./Nav.module.css";
+const customStyles = {
+  logo: {
+    height: "10%",
+  },
+};
 
 const Nav = ({ children }) => {
   const [total, setTotal] = useState(0);
@@ -19,7 +24,17 @@ const Nav = ({ children }) => {
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
         <p className={styles.title}>
-          <Link href="/">Out Of Place</Link>
+          <Link href="/shop">SHOP</Link>
+        </p>
+        <p className={styles.title}>
+          <Link href="/">
+            OUT OF PLACE
+            {/* <img
+                style={customStyles.logo}
+                src="https://res.cloudinary.com/dyck5r0tx/image/upload/v1675099367/Out%20Of%20Place/Webp.net-gifmaker_fessbv.gif"
+                alt="OOP Logo"
+              /> */}
+          </Link>
         </p>
         <p className={styles.description}>
           <a
@@ -27,14 +42,8 @@ const Nav = ({ children }) => {
             href="#"
             style={{ textDecoration: "none" }}
           >
-            <FaShoppingCart />
+            <AiFillShopping />
             <strong className="sr-only">Cart</strong>
-            <span className="snipcart-total-price">
-              {new Intl.NumberFormat("en-US", {
-                style: "currency",
-                currency: "USD",
-              }).format(total)}
-            </span>
           </a>
         </p>
       </Container>
