@@ -36,6 +36,8 @@ export default function Product({ product }) {
                 data-item-name={product.title}
                 data-item-url={`/products/${product.id}`}
                 data-item-price={product.price}
+                data-item-custom1-name="Frame color"
+                data-item-custom1-options="Black|Brown[+100.00]|Gold[+300.00]"
               >
                 Add to Cart
               </button>
