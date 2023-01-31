@@ -1,6 +1,7 @@
 .product {
   display: flex;
   align-items: center;
+  text-align: center;
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
@@ -8,4 +9,11 @@
 
 .productImage {
   max-width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .product {
+    width: 100%;
+    flex-direction: column;
+  }
 }
