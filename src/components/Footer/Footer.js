@@ -12,7 +12,10 @@ const Footer = ({ children }) => {
   return (
     <footer className={styles.footer}>
       <Container className={styles.footerContainer}>
-        <a href="https://google.com" target="_blank">
+        <a
+          href="https://www.instagram.com/outofplacestreetwear/?hl=en"
+          target="_blank"
+        >
           <AiOutlineInstagram />
         </a>
       </Container>
