@@ -8,12 +8,21 @@
 }
 
 .productImage {
-  max-width: 50%;
+  max-width: 65%;
+}
+.sizeChart {
+  max-width: 100%;
 }
 
 @media (max-width: 1000px) {
   .product {
     width: 100%;
     flex-direction: column;
+  }
+  .productImage {
+    width: 100%;
+  }
+  .sizeChart {
+    width: 85%;
   }
 }

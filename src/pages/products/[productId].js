@@ -26,7 +26,7 @@ export default function Product({ product }) {
             <p>${product.price}</p>
             <p>{product.description}</p>
 
-            <img src={product.sizeChart} />
+            <img className={styles.sizeChart} src={product.sizeChart} />
 
             <p>
               <button
