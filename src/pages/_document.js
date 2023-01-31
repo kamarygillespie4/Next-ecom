@@ -29,7 +29,7 @@ class MyDocument extends Document {
           <div
             hidden
             id="snipcart"
-            data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}
+            data-api-key="MGRiZjlhZWQtNjMxYS00ZjZkLTgxYmYtYTY1NzJlZGNjNGUxNjM4MTA1MzI2OTU2MzA3MzY2"
           />
         </body>
       </Html>
