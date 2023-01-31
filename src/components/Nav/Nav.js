@@ -25,9 +25,9 @@ const Nav = ({ children }) => {
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
-        <p className={styles.title}>
+        {/* <p className={styles.title}>
           <Link href="/">SHOP</Link>
-        </p>
+        </p> */}
         <p className={styles.title}>
           <Link href="/">
             OUT OF PLACE
