@@ -2,7 +2,7 @@
     {
       "title": "CHECK TEE",
       "id": "checkTee",
-      "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
+      "description": ["hello","hello 2"],
       "colors":"black and white",
       "size":"S M L XL",
       "price": "25.00",

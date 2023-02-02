@@ -16,7 +16,7 @@ const Footer = ({ children }) => {
           href="https://www.instagram.com/outofplacestreetwear/?hl=en"
           target="_blank"
         >
-          <AiOutlineInstagram />
+          <AiOutlineInstagram className={styles.icon} />
         </a>
       </Container>
       <Container className={styles.footerContainer}>

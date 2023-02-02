@@ -9,7 +9,7 @@ import styles from "@styles/Home.module.css";
 import products from "../../products.json";
 const customStyles = {
   image: {
-    // height: "15rem",
+    height: "20rem",
   },
 };
 

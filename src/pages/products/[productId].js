@@ -24,7 +24,12 @@ export default function Product({ product }) {
             <h1>{product.title}</h1>
 
             <p>${product.price}</p>
-            <p>{product.description}</p>
+
+            <ul className={styles.descriptionList}>
+              {product.description.map((item) => {
+                return <li>{item}</li>;
+              })}
+            </ul>
 
             <img className={styles.sizeChart} src={product.sizeChart} />
 
