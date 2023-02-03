@@ -7,11 +7,6 @@ import Container from "@components/Container";
 import styles from "@styles/Home.module.css";
 
 import products from "../../products.json";
-const customStyles = {
-  image: {
-    height: "20rem",
-  },
-};
 
 export default function Home() {
   return (
@@ -26,7 +21,7 @@ export default function Home() {
               <div key={product.id} className={styles.card}>
                 <Link href={`/products/${product.id}`}>
                   <img
-                    style={customStyles.image}
+                    className={styles.image}
                     src={product.image1}
                     alt={`Preview of ${product.title}`}
                   />

@@ -28,15 +28,9 @@ const Nav = ({ children }) => {
         {/* <p className={styles.title}>
           <Link href="/">SHOP</Link>
         </p> */}
+
         <p className={styles.title}>
-          <Link href="/">
-            OUT OF PLACE
-            {/* <img
-              style={customStyles.logo}
-              src="https://res.cloudinary.com/dyck5r0tx/image/upload/v1675099367/Out%20Of%20Place/Webp.net-gifmaker_fessbv.gif"
-              alt="OOP Logo"
-            /> */}
-          </Link>
+          <Link href="/">OUT OF PLACE</Link>
         </p>
         <p className={styles.description}>
           <a

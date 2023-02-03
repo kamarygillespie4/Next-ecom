@@ -2,9 +2,9 @@
     {
       "title": "CHECK TEE",
       "id": "checkTee",
-      "description": ["hello","hello 2"],
+      "description": ["100% Cotton", "5.3 oz", "Light Weight", "Heat Transfer"],
       "colors":"black and white",
-      "size":"S M L XL",
+      "sizes":["Small","Medium","Large","X-Large"],
       "price": "25.00",
       "discountPrice": "20.00",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675094178/Out%20Of%20Place/blackcheck_ws0lkn.png",
@@ -14,9 +14,9 @@
     {
       "title": "GET OUT TEE",
       "id": "getOutTee",
-      "description": "100% Cotton, 5.3 oz, Light Weight, Heat Transfer",
+      "description": ["100% Cotton", "5.3 oz", "Light Weight", "Heat Transfer"],
       "colors":"forest green and white",
-      "size":"S M L XL",
+      "sizes":["Small","Medium","Large","X-Large"],
       "price": "25.00",
       "discountPrice": "20.00",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675092544/Out%20Of%20Place/getoutwhitefront_iiuybt.png",
@@ -28,9 +28,9 @@
     {
       "title": "BANKING HOODIE",
       "id": "bankingHoodie",
-      "description": "55/45 cotton/polyester blend, 8 oz, Self lined hood, rib knit cuffs, Heat Transfer",
+      "description": ["55/45 cotton/polyester blend", "8 oz", "Self lined hood", "Rib knit cuffs", "Heat Transfer"],
       "colors":"Navy and white",
-      "size":"S M L XL",
+      "sizes":["Small","Medium","Large","X-Large"],
       "price": "50.00",
       "discountPrice": "40.00",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675096742/Out%20Of%20Place/blackhoodie_qwhdju.png",
@@ -42,9 +42,9 @@
     {
       "title": "SYMBOL KEY CHAIN",
       "id": "symbolKeyChain",
-      "description": "Black steel, 2.5 inch x 2.5 inch, 5 links - 1 keyring, OFP logo",
+      "description": ["Black steel", "2.5 inch x 2.5 inch", "5 links - 1 keyring", "OFP logo"],
       "colors":"",
-      "size":"",
+      "sizes":["One Size"],
       "price": "7.50",
       "discountPrice": "6.00",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675097286/Out%20Of%20Place/Screenshot_2023-01-30_at_9.47.59_AM_tawliz.png"
@@ -53,9 +53,9 @@
     {
       "title": "OUTOFPLACE HAT",
       "id": "oopHat",
-      "description": "Cotton/polyester blend, Five Panel - Soft Structured - 3 1/4 inch crown, Flat but bendable Bill, SnapBack, One size fits all ",
+      "description": ["Cotton/polyester blend", "Five Panel - Soft Structured", "3 1/4 inch crown", "Flat but bendable bill", "SnapBack", "One size fits all "],
       "colors":"",
-      "size":"",
+      "sizes":["One Size"],
       "price": "30.00",
       "discountPrice": "24.00",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675097988/Out%20Of%20Place/hatfront_cddzsf.png"
@@ -64,9 +64,9 @@
     {
       "title": "STICKER PACK",
       "id": "stickerPack",
-      "description": "3 unique vinyl stickers ",
+      "description": ["3 unique vinyl stickers "],
       "colors":"",
-      "size":"",
+      "sizes":["One Size"],
       "price": "5.00",
       "discountPrice": "discounted?",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675098320/Out%20Of%20Place/Screenshot_2023-01-30_at_10.05.14_AM_qr563c.png"
@@ -74,9 +74,9 @@
     {
       "title": "KEY CHAIN STICKER PACK",
       "id": "keychainStickerPack",
-      "description": "1 keychain, 3 unique vinyl stickers ",
+      "description": ["1 keychain", "3 unique vinyl stickers "],
       "colors":"",
-      "size":"",
+      "sizes":["One Size"],
       "price": "12.50",
       "discountPrice": "discounted?",
       "image1": "https://res.cloudinary.com/dyck5r0tx/image/upload/v1675098700/Out%20Of%20Place/keychainstickerbundle_plvuib.png"

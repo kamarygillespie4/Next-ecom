@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { FaShoppingCart } from "react-icons/fa";
+import { Dropdown } from "@nextui-org/react";
+import React from "react";
 
 import Layout from "@components/Layout";
 import Container from "@components/Container";
@@ -9,6 +11,13 @@ import styles from "@styles/Product.module.css";
 import products from "../../../products.json";
 
 export default function Product({ product }) {
+  const [selected, setSelected] = React.useState(new Set(["Select a size"]));
+
+  const selectedValue = React.useMemo(
+    () => Array.from(selected).join(", ").replaceAll("_", " "),
+    [selected]
+  );
+
   return (
     <Layout>
       <Head>
@@ -31,6 +40,30 @@ export default function Product({ product }) {
               })}
             </ul>
 
+            <Dropdown className={styles.dropDown}>
+              <Dropdown.Button light className={styles.dropDownButton}>
+                {selectedValue}
+              </Dropdown.Button>
+              <Dropdown.Menu
+                aria-label="Single selection actions"
+                selectionMode="single"
+                selectedKeys={selected}
+                onSelectionChange={setSelected}
+              >
+                {product.sizes.map((size) => {
+                  return (
+                    <Dropdown.Item
+                      key={size}
+                      value={size}
+                      className={styles.dropDownItem}
+                    >
+                      {size}
+                    </Dropdown.Item>
+                  );
+                })}
+              </Dropdown.Menu>
+            </Dropdown>
+
             <img className={styles.sizeChart} src={product.sizeChart} />
 
             <p>
@@ -41,8 +74,9 @@ export default function Product({ product }) {
                 data-item-name={product.title}
                 data-item-url={`/products/${product.id}`}
                 data-item-price={product.price}
-                data-item-custom1-name="Size"
-                data-item-custom1-options="Small|Medium|Gold[+300.00]"
+                data-item-custom1-name="Selected Size"
+                data-item-custom1-type="readonly"
+                data-item-custom1-value={selectedValue}
               >
                 Add to Cart
               </button>
