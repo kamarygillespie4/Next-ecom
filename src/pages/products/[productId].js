@@ -39,30 +39,31 @@ export default function Product({ product }) {
                 return <li>{item}</li>;
               })}
             </ul>
-
-            <Dropdown className={styles.dropDown}>
-              <Dropdown.Button light className={styles.dropDownButton}>
-                {selectedValue}
-              </Dropdown.Button>
-              <Dropdown.Menu
-                aria-label="Single selection actions"
-                selectionMode="single"
-                selectedKeys={selected}
-                onSelectionChange={setSelected}
-              >
-                {product.sizes.map((size) => {
-                  return (
-                    <Dropdown.Item
-                      key={size}
-                      value={size}
-                      className={styles.dropDownItem}
-                    >
-                      {size}
-                    </Dropdown.Item>
-                  );
-                })}
-              </Dropdown.Menu>
-            </Dropdown>
+            <div className={styles.dropDownDiv}>
+              {/* <Dropdown className={styles.dropDown}>
+                <Dropdown.Button light className={styles.dropDownButton}>
+                  {selectedValue}
+                </Dropdown.Button>
+                <Dropdown.Menu
+                  aria-label="Single selection actions"
+                  selectionMode="single"
+                  selectedKeys={selected}
+                  onSelectionChange={setSelected}
+                >
+                  {product.sizes.map((size) => {
+                    return (
+                      <Dropdown.Item
+                        key={size}
+                        value={size}
+                        className={styles.dropDownItem}
+                      >
+                        {size}
+                      </Dropdown.Item>
+                    );
+                  })}
+                </Dropdown.Menu>
+              </Dropdown> */}
+            </div>
 
             <img className={styles.sizeChart} src={product.sizeChart} />
 
